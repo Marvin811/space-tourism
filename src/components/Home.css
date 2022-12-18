@@ -78,18 +78,18 @@
     font-family: 'Bellefair', Arial, sans-serif;;
 }
 
-.home__link:hover::before {
-    content: '';
-    position: absolute;
-    width: 450px;
-    height: 450px;
-    background: #FFFFFF;
-    mix-blend-mode: normal;
-    opacity: 0.1;
-    border-radius: 9999px;
-    z-index: -9999;
-    animation: pulse 2.5s infinite;
-}
+/*.home__link:hover::before {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    width: 450px;*/
+/*    height: 450px;*/
+/*    background: #FFFFFF;*/
+/*    mix-blend-mode: normal;*/
+/*    opacity: 0.1;*/
+/*    border-radius: 9999px;*/
+/*    z-index: -9999;*/
+/*    animation: pulse 2.5s infinite;*/
+/*}*/
 
 @media (max-width: 1278px) {
     .home__link {
