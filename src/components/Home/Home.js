@@ -1,5 +1,8 @@
 import "./Home.css";
+import background from "../background/background";
 export function Home() {
+
+    window.addEventListener("load", background('home'))
     return (
         <section className="home">
             <div className="home__container">
@@ -11,7 +14,7 @@ export function Home() {
                     truly
                     out of this world experience!</p>
             </div>
-            <a className="home__link" href="#">EXPLORE</a>
+            <button className="home__button">EXPLORE</button>
         </section>
     )
 }

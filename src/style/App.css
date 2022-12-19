@@ -47,17 +47,17 @@
     margin: 0 auto;
     background-size: cover;
     background-position: bottom center;
-    background-image: url(../images/home/background-home-desktop.jpg);
+    background-image: var(--background-desktop);
 }
 
 @media (max-width: 1278px) {
     .page {
-        background-image: url(../images/home/background-home-tablet.jpg);
+        background-image: var(--background-tablet);
     }
 }
 
 @media (max-width: 767px) {
     .page {
-        background-image: url(../images/home/background-home-mobile.jpg);
+        background-image: var(--background-mobile);
     }
 }
