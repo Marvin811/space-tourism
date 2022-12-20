@@ -1,5 +1,7 @@
 import "./Home.css";
 import background from "../background/background";
+import {Link} from "react-router-dom";
+
 export function Home() {
 
     window.addEventListener("load", background('home'))
@@ -14,7 +16,10 @@ export function Home() {
                     truly
                     out of this world experience!</p>
             </div>
-            <button className="home__button">EXPLORE</button>
+            <Link to="/destination" className="home__link">
+                <button className="home__button">EXPLORE</button>
+            </Link>
+
         </section>
     )
 }

@@ -1,19 +1,23 @@
 import React from "react";
 import {Route, Routes} from 'react-router-dom';
 import '../../style/App.css';
-import {Header} from "../Header/Header"
-import {Main} from "../Main/Main";
+import {Header} from "../Header/Header";
+import {Home} from "../Home/Home";
+import {Destination} from "../Destination/Destination";
+import {Crew} from "../Crew/Crew";
+import {Technology} from "../Technology/Technology";
 
 
-function App() {
+export default function App() {
     return (
         <div className="page">
             <Header />
             <Routes>
-                <Route path="/" element={<Main/>}></Route>
+                <Route exact path='/' element={<Home/>}></Route>
+                <Route exact path="/destination" element={<Destination/>}></Route>
+                <Route exact path="/crew" element={<Crew/>}></Route>
+                <Route exact path="/technology" element={<Technology/>}></Route>
             </Routes>
         </div>
     );
 }
-
-export default App;
