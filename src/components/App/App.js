@@ -14,9 +14,9 @@ export default function App() {
             <Header />
             <Routes>
                 <Route exact path='/' element={<Home/>}></Route>
-                <Route exact path="/destination" element={<Destination/>}></Route>
-                <Route exact path="/crew" element={<Crew/>}></Route>
-                <Route exact path="/technology" element={<Technology/>}></Route>
+                <Route path="/destination" element={<Destination/>}></Route>
+                <Route path="/crew" element={<Crew/>}></Route>
+                <Route path="/technology" element={<Technology/>}></Route>
             </Routes>
         </div>
     );
