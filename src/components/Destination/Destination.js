@@ -3,12 +3,14 @@ import background from "../background/background";
 import data from "../../data/data.json";
 import './Destination.css';
 
+// import dog from '../../images/destination/image-moon.png';
+
 export function Destination() {
     window.onload = background("destination")
 
     const [planets] = useState(data.destinations);
     const [value, setValue] = useState(0);
-    const {name, images} = planets[value];
+    const {name, images, description, distance, travel} = planets[value];
     return (
         <>
             <section className="destination">
@@ -17,7 +19,26 @@ export function Destination() {
                         <h2 className="destination__title">
                             <span className="destination__title_weight">01</span>Pick your destination
                         </h2>
-                        <img src={images.webp} alt={name} title={name} className="destination__images"/>
+                        <img src={images.png} alt={name} title={name} className="destination__images"/>
+                    </article>
+                    <article className="destination__block-right">
+                        <ul className="destination__list">
+                            {planets.map((item, index) => (
+                                <li key={index} className="destination__item">
+                                    <button onClick={() => setValue(index)} className="destination__button">
+                                        {item.name}
+                                    </button>
+                                </li>)
+                            )}
+                        </ul>
+                        <h2 className="destination__heading">{name}</h2>
+                        <p className="destination__desc">{description}</p>
+                        <ul className="destination__content">
+                            <li className="destination__aside">AVG. DISTANCE<span
+                                className="destination__aside-numbers">{distance}</span></li>
+                            <li className="destination__aside">Est. travel time<span
+                                className="destination__aside-numbers">{travel}</span></li>
+                        </ul>
                     </article>
                 </div>
             </section>
