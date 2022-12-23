@@ -1,4 +1,114 @@
+.destination {
+
+}
+
+.destination__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0 157px;
+}
+
+.destination__block-left {
+    padding: 72px 0 0 162px;
+}
+
+.destination__title {
+    font-family: 'Barlow Condensed', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 4.725px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0 auto;
+}
+
+.destination__title_weight {
+    font-family: 'Barlow Condensed', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 4.725px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+    padding-right: 28px;
+}
+
 .destination__images {
-    width: 400px;
-    height: 400px;
+    width: 445px;
+    height: 445px;
+    padding: 100px 0 0 68px;
+}
+
+.destination__block-right {
+
+}
+
+.destination__list {
+    display: flex;
+    list-style: none;
+    margin: 160px 0 0 0;
+    padding: 0;
+
+}
+
+.destination__item {
+    padding: 10px 0 0 0;
+}
+
+.destination__button {
+    background: none;
+    border: none;
+    color: #FFFFFF;
+    font-family: 'Barlow Condensed', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    margin: 0 33px 0 0;
+    text-transform: uppercase;
+    padding: 0;
+    border-bottom: 3px solid #FFF;
+}
+
+.destination__heading {
+    font-family: 'Bellefair', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 115px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 50px 0 13px;
+}
+
+.destination__desc {
+    font-family: 'Barlow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #D0D6F9;
+    max-width: 444px;
+    margin: 0;
+    padding: 0 0 54px 0;
+    border-bottom: 1px solid #383B4B;
+}
+
+.destination__content {
+
+}
+
+.destination__aside {
+
+}
+
+.destination__aside-numbers {
+
 }
