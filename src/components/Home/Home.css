@@ -3,6 +3,8 @@
     grid-template-columns: repeat(2, 1fr);
     align-items: flex-end;
     padding: 0 165px 131px 165px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 @media (max-width: 1278px) {

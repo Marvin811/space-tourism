@@ -3,8 +3,6 @@ import background from "../background/background";
 import data from "../../data/data.json";
 import './Destination.css';
 
-// import dog from '../../images/destination/image-moon.png';
-
 export function Destination() {
     window.onload = background("destination")
 
@@ -25,7 +23,8 @@ export function Destination() {
                         <ul className="destination__list">
                             {planets.map((item, index) => (
                                 <li key={index} className="destination__item">
-                                    <button onClick={() => setValue(index)} className="destination__button">
+                                    <button onClick={() => setValue(index)}
+                                            className={`destination__button ${index === value && 'destination__border'}`}>
                                         {item.name}
                                     </button>
                                 </li>)
