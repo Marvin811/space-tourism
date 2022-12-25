@@ -23,13 +23,13 @@ export function Crew() {
                         <ul className="crew__list">
                             {crew.map((item, index) => (
                                 <li key={index} className="crew__item">
-                                    <button onClick={() => setValue(index)} className="crew__button"></button>
+                                    <button onClick={() => setValue(index)} className={`crew__button ${index === value && "crew__button_active"}`}></button>
                                 </li>
                             ))}
                         </ul>
                     </article>
                     <article className="crew__block-right">
-                        <img src={images.png} alt={name} title={name}/>
+                        <img src={images.png} alt={name} title={name} className="crew__image"/>
                     </article>
                 </div>
             </section>
