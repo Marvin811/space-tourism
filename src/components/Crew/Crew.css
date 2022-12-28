@@ -94,14 +94,19 @@ padding-right: 24px;
     border-radius: 15px;
     border: none;
 }
-
+.crew__button:hover {
+    opacity: 0.5;
+}
 .crew__button_active {
     opacity: 1;
 }
 
-.crew__button:hover {
-    opacity: 0.5;
+.crew__button_active:hover {
+    opacity: 1;
+    background: #FFFFFF;
 }
+
+
 .crew__block-right {
     margin: 61px 0 0 0;
     display: flex;

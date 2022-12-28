@@ -22,7 +22,7 @@ export function Technology() {
                             <ul className="technology__list">
                                 {technology.map((item, index) => (
                                     <li key={index} className="technology__item">
-                                        <button className="technology__button"
+                                        <button className={`technology__button ${index === value && "technology__button_active"}`}
                                                 onClick={() => setValue(index)}>{index + 1}</button>
                                     </li>
                                 ))}
