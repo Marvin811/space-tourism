@@ -1,0 +1,27 @@
+.home__title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 172px;
+    color: #FFFFFF;
+    font-family: 'Bellefair', Arial, sans-serif;
+    margin: 24px 0;
+}
+
+@media screen and (max-width: 1279px) {
+    .home__title {
+        line-height: 150px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .home__title {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 80px;
+        line-height: 100px;
+        margin: 13px 0 18px;
+    }
+}

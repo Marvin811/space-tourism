@@ -1,0 +1,28 @@
+@import url(./vendor/normalize.css);
+@import url(./blocks/page/page.css);
+/*Header*/
+/*Home*/
+@import url(./blocks/Home/home.css);
+@import url(./blocks/Home/__container/home__container.css);
+@import url(./blocks/Home/__text/home__text.css);
+@import url(./blocks/Home/__title/home__title.css);
+@import url(./blocks/Home/__desc/home__desc.css);
+@import url(./blocks/Home/__link/home__link.css);
+@import url(./blocks/Home/__button/home__button.css);
+/*Destination*/
+@import url(./blocks/Destination/destination.css);
+@import url(./blocks/Destination/__container/destination__container.css);
+@import url(./blocks/Destination/__block-left/destination__block-left.css);
+@import url(./blocks/Destination/__title/destination__title.css);
+@import url(./blocks/Destination/__title/destination__title_weight.css);
+@import url(./blocks/Destination/__images/destination__images.css);
+@import url(./blocks/Destination/__block-right/destination__block-right.css);
+@import url(./blocks/Destination/__list/destination__list.css);
+@import url(./blocks/Destination/__item/destination__item.css);
+@import url(./blocks/Destination/__button/destination__button.css);
+@import url(./blocks/Destination/__heading/destination__heading.css);
+@import url(./blocks/Destination/__desc/destination__desc.css);
+@import url(./blocks/Destination/__content/destination__content.css);
+@import url(./blocks/Destination/__aside/destination__aside.css);
+@import url(./blocks/Destination/__aside/destination__aside_numbers.css);
+/*Crew*/

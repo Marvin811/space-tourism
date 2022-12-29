@@ -1,0 +1,29 @@
+.destination__aside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 28px 57px 0 0;
+    font-family: 'Barlow Condensed', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 2.3625px;
+    text-transform: uppercase;
+    color: #D0D6F9;
+}
+
+@media screen and (max-width: 1279px) {
+    .destination__aside {
+        align-items: center;
+        margin: 27px 52px 0 35px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .destination__aside {
+        margin: 30px auto 0;
+    }
+}
+
+

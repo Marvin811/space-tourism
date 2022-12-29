@@ -1,6 +1,5 @@
 import React from "react";
 import {Route, Routes} from 'react-router-dom';
-import '../../style/App.css';
 import {Header} from "../Header/Header";
 import {Home} from "../Home/Home";
 import {Destination} from "../Destination/Destination";
@@ -8,7 +7,7 @@ import {Crew} from "../Crew/Crew";
 import {Technology} from "../Technology/Technology";
 
 
-export default function App() {
+export default function Page() {
     return (
         <div className="page">
             <Header />

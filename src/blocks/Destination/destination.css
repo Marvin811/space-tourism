@@ -1,0 +1,11 @@
+.destination {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1279px) {
+    .destination {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+}

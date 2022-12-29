@@ -1,0 +1,20 @@
+.destination__content {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 1279px) {
+    .destination__content {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .destination__content {
+        flex-direction: column;
+    }
+}
+

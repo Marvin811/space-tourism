@@ -113,7 +113,6 @@
     }
 
     .header__link {
-
         font-size: 14px;
         line-height: 17px;
         letter-spacing: 2.3625px;
@@ -122,9 +121,14 @@
     .header__link_weight {
         display: none;
     }
+
+    .header__line {
+        border-bottom: none;
+    }
 }
 
 @media screen and (max-width: 767px) {
+
     .header {
         max-width: 100%;
         padding: 24px 10px 0 25px ;

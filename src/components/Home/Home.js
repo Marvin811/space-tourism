@@ -1,4 +1,3 @@
-import "./Home.css";
 import background from "../background/background";
 import {Link} from "react-router-dom";
 

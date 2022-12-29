@@ -1,0 +1,12 @@
+.destination__title_weight {
+    font-weight: 700;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+    padding-right: 28px;
+}
+
+@media screen and (max-width: 1279px) {
+    .destination__title_weight {
+        padding-right: 19px;
+    }
+}

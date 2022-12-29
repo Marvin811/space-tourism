@@ -1,0 +1,30 @@
+.destination__title {
+    font-family: 'Barlow Condensed', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 4.725px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1279px) {
+    .destination__title {
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 3.375px;
+        margin: 38px 354px 61px -66px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .destination__title {
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 2.7px;
+        margin: 14px auto 31px;
+    }
+}
+

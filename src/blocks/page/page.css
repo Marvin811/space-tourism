@@ -1,0 +1,24 @@
+.page {
+    background-color: #0B0D17;
+    color: #FFF;
+    font-family: 'Barlow Condensed', Arial, sans-serif;
+    max-width: 100%;
+    min-height: 100vh;
+    min-width: 320px;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: bottom center;
+    background-image: var(--background-desktop);
+}
+
+@media (max-width: 1278px) {
+    .page {
+        background-image: var(--background-tablet);
+    }
+}
+
+@media (max-width: 767px) {
+    .page {
+        background-image: var(--background-mobile);
+    }
+}

@@ -1,0 +1,30 @@
+.destination__heading {
+    font-family: 'Bellefair', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 115px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 38px 0 13px;
+}
+
+@media screen and (max-width: 1279px) {
+    .destination__heading {
+        font-size: 80px;
+        line-height: 92px;
+        text-align: center;
+        margin-top: 47px;
+        margin-bottom: 7px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .destination__heading {
+        font-size: 56px;
+        line-height: 64px;
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+}

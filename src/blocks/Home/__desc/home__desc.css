@@ -1,0 +1,26 @@
+.home__desc {
+    font-family: 'Barlow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 178% */
+    color: #D0D6F9;
+}
+
+@media screen and (max-width: 1279px) {
+    .home__desc {
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .home__desc {
+        font-size: 15px;
+        line-height: 25px;
+        min-width: 327px;
+    }
+}

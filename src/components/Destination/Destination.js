@@ -1,7 +1,6 @@
 import React, {useState} from "react";
 import background from "../background/background";
 import data from "../../data/data.json";
-import './Destination.css';
 
 export function Destination() {
     window.onload = background("destination")
@@ -34,9 +33,9 @@ export function Destination() {
                         <p className="destination__desc">{description}</p>
                         <ul className="destination__content">
                             <li className="destination__aside">AVG. DISTANCE<span
-                                className="destination__aside-numbers">{distance}</span></li>
+                                className="destination__aside_numbers">{distance}</span></li>
                             <li className="destination__aside">Est. travel time<span
-                                className="destination__aside-numbers">{travel}</span></li>
+                                className="destination__aside_numbers">{travel}</span></li>
                         </ul>
                     </article>
                 </div>
