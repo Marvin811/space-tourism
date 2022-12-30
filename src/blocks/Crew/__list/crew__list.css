@@ -1,0 +1,6 @@
+.crew__list {
+    list-style: none;
+    display: flex;
+    margin: 117px 0 50px 0;
+    padding: 0;
+}

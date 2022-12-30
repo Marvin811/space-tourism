@@ -1,0 +1,8 @@
+.crew__button_active {
+    opacity: 1;
+}
+
+.crew__button_active:hover {
+    opacity: 1;
+    background: #FFFFFF;
+}

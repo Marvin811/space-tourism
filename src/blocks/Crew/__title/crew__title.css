@@ -1,0 +1,11 @@
+.crew__title {
+    font-family: 'Barlow Condensed', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 4.725px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0 auto;
+}

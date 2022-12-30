@@ -1,0 +1,13 @@
+.crew__button {
+    width: 15px;
+    height: 15px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.17;
+    border-radius: 15px;
+    border: none;
+}
+
+.crew__button:hover {
+    opacity: 0.5;
+}

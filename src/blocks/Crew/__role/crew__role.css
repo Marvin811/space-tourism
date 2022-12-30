@@ -1,0 +1,12 @@
+.crew__role {
+    font-family: 'Bellefair', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    margin: 152px 0 0;
+}

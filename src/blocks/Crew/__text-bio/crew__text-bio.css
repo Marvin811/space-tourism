@@ -1,0 +1,10 @@
+.crew__text-bio {
+    font-family: 'Barlow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #D0D6F9;
+    max-width: 444px;
+    margin: 25px 0 0;
+}

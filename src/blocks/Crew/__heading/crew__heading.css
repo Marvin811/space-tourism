@@ -1,0 +1,10 @@
+.crew__heading {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    text-transform: uppercase;
+    font-family: 'Bellefair', Arial, sans-serif;
+    color: #FFFFFF;
+    margin: 20px 0 0;
+}

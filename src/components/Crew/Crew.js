@@ -1,5 +1,4 @@
 import React, {useState} from "react";
-import './Crew.css';
 import background from "../background/background";
 import data from '../../data/data.json';
 

@@ -26,3 +26,18 @@
 @import url(./blocks/Destination/__aside/destination__aside.css);
 @import url(./blocks/Destination/__aside/destination__aside_numbers.css);
 /*Crew*/
+@import url(./blocks/Crew/сrew.css);
+@import url(./blocks/Crew/__container/crew__container.css);
+@import url(./blocks/Crew/__block-left/crew__block-left.css);
+@import url(./blocks/Crew/__title/crew__title.css);
+@import url(./blocks/Crew/__title/crew__title_weight.css);
+@import url(./blocks/Crew/__role/crew__role.css);
+@import url(./blocks/Crew/__heading/crew__heading.css);
+@import url(./blocks/Crew/__text-bio/crew__text-bio.css);
+@import url(./blocks/Crew/__list/crew__list.css);
+@import url(./blocks/Crew/__item/crew__item.css);
+@import url(./blocks/Crew/__button/crew__button.css);
+@import url(./blocks/Crew/__button/crew__button_active.css);
+@import url(./blocks/Crew/__block-right/crew__block-right.css);
+@import url(./blocks/Crew/__image/crew__image.css);
+/*Technology*/
