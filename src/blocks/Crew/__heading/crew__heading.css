@@ -8,3 +8,12 @@
     color: #FFFFFF;
     margin: 20px 0 0;
 }
+
+@media screen and (max-width: 1279px) {
+    .crew__heading {
+        font-size: 40px;
+        line-height: 46px;
+        text-align: center;
+        margin: 7px 0 15px;
+    }
+}

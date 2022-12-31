@@ -5,3 +5,12 @@
     align-content: center;
     flex-direction: column;
 }
+
+
+@media screen and (max-width: 1279px) {
+    .crew__block-right {
+        margin: 39px 122px 0 auto;
+    }
+}
+
+

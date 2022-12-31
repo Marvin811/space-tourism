@@ -9,3 +9,12 @@
     color: #FFFFFF;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 1279px) {
+    .crew__title {
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 3.375px;
+        margin: 38px 420px 61px -66px;
+    }
+}

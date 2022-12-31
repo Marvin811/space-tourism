@@ -10,3 +10,14 @@
     opacity: 0.5;
     margin: 152px 0 0;
 }
+
+@media screen and (max-width: 1279px) {
+    .crew__role {
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+

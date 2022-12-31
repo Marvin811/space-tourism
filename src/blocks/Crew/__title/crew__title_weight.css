@@ -5,3 +5,9 @@
     padding-right: 28px;
     text-transform:none;
 }
+
+@media screen and (max-width: 1279px) {
+    .crew__title_weight {
+        padding-right: 16px;
+    }
+}
