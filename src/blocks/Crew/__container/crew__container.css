@@ -14,3 +14,10 @@
         justify-content: flex-start;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .crew__container {
+        flex-direction: column-reverse;
+    }
+}
+

@@ -5,3 +5,10 @@
     }
 }
 
+@media screen and (max-width: 767px) {
+    .crew__image {
+        width: 177.12px;
+        height: 222px;
+        margin: 0 auto;
+    }
+}
