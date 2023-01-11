@@ -1,0 +1,29 @@
+.technology__content-text {
+    font-family: 'Barlow Condensed', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    color: #D0D6F9;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 1279px) {
+    .technology__content-text {
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 2.7px;
+        margin: 15px auto 0 155px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .technology__content-text {
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 2.3625px;
+        margin: -5px auto 0;
+    }
+}

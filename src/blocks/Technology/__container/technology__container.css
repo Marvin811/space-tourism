@@ -1,0 +1,16 @@
+.technology__container {
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 0 50px;
+    grid-template-columns: 1fr 515px;
+}
+
+@media screen and (max-width: 1279px) {
+    .technology__container {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+}

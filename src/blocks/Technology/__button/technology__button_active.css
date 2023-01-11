@@ -1,0 +1,9 @@
+.technology__button_active {
+    color: #0B0D17;
+    background: #FFFFFF;
+}
+
+.technology__button_active:hover {
+    color: #0B0D17;
+    background: #FFFFFF;
+}

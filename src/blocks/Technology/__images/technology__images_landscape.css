@@ -1,0 +1,19 @@
+.technology__images_landscape {
+    display: none;
+}
+
+@media screen and (max-width: 1279px) {
+    .technology__images_landscape {
+        width: 768px;
+        height: 310px;
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .technology__images_landscape {
+        width: 375px;
+        height: 170px;
+    }
+}

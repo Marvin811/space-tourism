@@ -1,0 +1,18 @@
+.technology__images {
+    width: 515px;
+    height: 527px;
+}
+
+@media screen and (max-width: 1279px) {
+    .technology__images {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .technology__images {
+        width: 375px;
+        height: 170px;
+    }
+}

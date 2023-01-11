@@ -1,0 +1,9 @@
+.technology__block-left {
+    padding: 72px 0 0 162px;
+}
+
+@media screen and (max-width: 1279px) {
+    .technology__block-left {
+        padding: 0;
+    }
+}

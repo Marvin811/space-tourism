@@ -1,5 +1,4 @@
 import React, {useState} from "react";
-import './Technology.css';
 import background from "../background/background";
 import data from '../../data/data.json';
 
@@ -38,6 +37,7 @@ export function Technology() {
                 </article>
                 <article className="technology__block-right">
                     <img src={images.portrait} alt={name} title={name} className="technology__images"/>
+                    <img src={images.landscape} alt={name} title={name} className="technology__images_landscape"/>
                 </article>
             </div>
             </section>
