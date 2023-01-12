@@ -20,6 +20,7 @@
 @import url(./blocks/Destination/__list/destination__list.css);
 @import url(./blocks/Destination/__item/destination__item.css);
 @import url(./blocks/Destination/__button/destination__button.css);
+@import url(./blocks/Destination/__border/destination__border.css);
 @import url(./blocks/Destination/__heading/destination__heading.css);
 @import url(./blocks/Destination/__desc/destination__desc.css);
 @import url(./blocks/Destination/__content/destination__content.css);

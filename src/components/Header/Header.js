@@ -1,7 +1,7 @@
 import React from "react";
 import './Header.css';
 import Logo from '../../images/shared/logo.svg';
-import {Link, NavLink} from "react-router-dom";
+import {Link} from "react-router-dom";
 import {FiMenu} from "react-icons/fi";
 
 

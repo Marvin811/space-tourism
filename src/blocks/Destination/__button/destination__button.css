@@ -10,7 +10,7 @@
     letter-spacing: 2.7px;
     margin: 0 33px 0 0;
     text-transform: uppercase;
-    padding: 0;
+    padding-bottom: 12px;
 }
 
 .destination__button:hover {

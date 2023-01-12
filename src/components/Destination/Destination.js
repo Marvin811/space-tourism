@@ -16,7 +16,7 @@ export function Destination() {
                         <h2 className="destination__title">
                             <span className="destination__title_weight">01</span>Pick your destination
                         </h2>
-                        <img src={images.png} alt={name} title={name} className="destination__images"/>
+                        <img src={ process.env.PUBLIC_URL + images.png} alt={name} title={name} className="destination__images"/>
                     </article>
                     <article className="destination__block-right">
                         <ul className="destination__list">

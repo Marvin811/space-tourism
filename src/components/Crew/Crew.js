@@ -28,7 +28,7 @@ export function Crew() {
                         </ul>
                     </article>
                     <article className="crew__block-right">
-                        <img src={images.png} alt={name} title={name} className="crew__image"/>
+                        <img src={process.env.PUBLIC_URL + images.png} alt={name} title={name} className="crew__image"/>
                     </article>
                 </div>
             </section>
